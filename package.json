@@ -1,0 +1,10 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "Hello World!",
+  "main": "src/index.js",
+  "repository": "https://www.npmjs.com/settings/diogopaulino/packages",
+  "author": "Diogo Paulino",
+  "license": "MIT",
+  "private": true
+}
