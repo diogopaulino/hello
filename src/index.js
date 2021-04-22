@@ -1,7 +1,5 @@
-const helloMessage = 'Hello World!';
-
-const helloWorld = () => {
-    console.log(`You are using ${helloMessage} lib!`);
+const helloMessage = (name) => {
+    console.log(`Hello ${name}, you are using the most simple lib!`);
 }
 
-module.exports = { helloMessage, helloWorld };
+module.exports = { helloMessage };

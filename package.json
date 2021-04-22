@@ -2,8 +2,12 @@
   "name": "lib-hello-simple",
   "version": "1.0.0",
   "description": "Hello World!",
-  "main": "src/index.js",
-  "repository": "https://www.npmjs.com/settings/diogopaulino/packages",
+  "main": "src/index.js",  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogopaulino/hello.git"
+  },
+  "homepage": "https://github.com/diogopaulino/hello",
   "author": "Diogo Paulino",
   "license": "MIT",
   "private": false
