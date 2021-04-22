@@ -1,6 +1,8 @@
 # hello
-Hello World!
+This is the most simple lib!
 
+
+## How To Install
 `yarn add lib-hello-simple`
 
 or
@@ -13,6 +15,6 @@ or
 
 ```
 import { helloMessage } from lib-hello-simple`
-helloMessage('Diogo');
 
+helloMessage('Diogo');
 ```
