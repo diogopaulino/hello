@@ -6,5 +6,5 @@
   "repository": "https://www.npmjs.com/settings/diogopaulino/packages",
   "author": "Diogo Paulino",
   "license": "MIT",
-  "private": true
+  "private": false
 }
