@@ -1,5 +1,5 @@
 {
-  "name": "hello",
+  "name": "lib-hello-simple",
   "version": "1.0.0",
   "description": "Hello World!",
   "main": "src/index.js",
