@@ -7,7 +7,10 @@ or
 
 `npm install lib-hello-simple`
 
-###How To Use
+------------
+
+## How To Use
+
 ```
 import { helloMessage } from lib-hello-simple`
 helloMessage('Diogo');
