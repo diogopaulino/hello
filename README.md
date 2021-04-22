@@ -1,5 +1,5 @@
 # hello
-This is the most simple lib!
+This is the simplest library that exists
 
 
 ## How To Install
