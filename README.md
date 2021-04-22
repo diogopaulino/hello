@@ -13,7 +13,7 @@ or
 
 ## How To Use
 
-```
+```js
 import { helloMessage } from lib-hello-simple`
 
 helloMessage('Diogo');
