@@ -1,20 +1,21 @@
 # hello
-This is the simplest library that exists
 
+> **Legacy npm publishing experiment.** Not intended for production use.
 
-## How To Install
-`yarn add lib-hello-simple`
+A deliberately tiny JavaScript package created to test the npm package publishing flow.
 
-or
+## Install
 
-`npm install lib-hello-simple`
+```bash
+npm install lib-hello-simple
+```
 
-------------
-
-## How To Use
+## Usage
 
 ```js
-import { helloMessage } from lib-hello-simple`
+import { helloMessage } from 'lib-hello-simple'
 
-helloMessage('Diogo');
+helloMessage('Diogo')
 ```
+
+There is no active development planned for this package. It is kept only as a historical reference.
