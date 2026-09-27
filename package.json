@@ -1,13 +1,23 @@
 {
   "name": "lib-hello-simple",
   "version": "1.0.1",
-  "description": "Hello World!",
-  "main": "src/index.js",  
+  "description": "A tiny zero-dependency hello-world package.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/diogopaulino/hello.git"
   },
-  "homepage": "https://github.com/diogopaulino/hello",
+  "homepage": "https://github.com/diogopaulino/hello#readme",
   "author": "Diogo Paulino",
   "license": "MIT",
   "private": false

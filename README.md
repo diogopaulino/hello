@@ -1,8 +1,10 @@
 # hello
 
-> **Legacy npm publishing experiment.** Not intended for production use.
+A tiny, zero-dependency package used to demonstrate the basics of publishing and consuming an npm library.
 
-A deliberately tiny JavaScript package created to test the npm package publishing flow.
+## Requirements
+
+- Node.js 20+
 
 ## Install
 
@@ -13,9 +15,15 @@ npm install lib-hello-simple
 ## Usage
 
 ```js
-import { helloMessage } from 'lib-hello-simple'
+const { helloMessage } = require('lib-hello-simple')
 
 helloMessage('Diogo')
 ```
 
-There is no active development planned for this package. It is kept only as a historical reference.
+## Test
+
+```bash
+npm test
+```
+
+The implementation intentionally stays small: no runtime dependencies, native Node.js tests and TypeScript declarations included.
